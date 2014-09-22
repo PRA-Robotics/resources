@@ -1,7 +1,7 @@
 resources
 =========
 
-info / material about robotics in general
+info / materials relating to FTC or robotics in general
 
 Robotics Videos from SparkFun
 -----------------------------
