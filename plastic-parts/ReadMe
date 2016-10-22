@@ -1,0 +1,11 @@
+I created this folder in order to hold the Micro3D printer parts. 
+
+We have determined that in SolveSpace-to-STL-to-M3D print the dimension between two holes at 27.5mm apart on SolveSpace 
+actually print on M3D printer at ~27.0mm. So there's a ~0.5m difference. Unclear where this problem lies.
+
+I created test files and sent them to SolveSpace Forum (see: http://solvespace.com/forum.pl?action=viewthread&parent=1624) and
+someone wrote back that the STL and SVLS files look ok but no-one tried to print them.
+
+So, if you try to use these files on another printer you may need to modify the inter-hole distances.
+
+Ray
