@@ -36,6 +36,9 @@ NB. ".slvs" files are SolveSpace source files and ".stl" files are exports with 
  - CoreMntUSB+Towers-vnnn.slvs & ".stl: this is the top half of the wraparound mount for the Core Controller. It is intended to only be used
   for the USB connection side of the mount. It also SANDWICHes the core controller screw hole flange and the Actobotics flat bracket on the 
   other side. 
+ - CoreMntUSB+Towers-only-v001.slvs: is an assembly of just the two USB towers that are included in the USB mount above and the USB holder
+  below. If you change the Towers-only .slvs file and then open one of the USB+Towers or USBholder files it should incorporate any 
+  changes made to the Towers-only file.
   
  - NewCoreMnt-2X5-vnnn.slvs & ".stl: this is a different mount, only going on the top of an Core Controller module and an Actobotics beam. 
     But we have configured the Actobotics screw holes so that it could all be mounted on the same beam. The controller module should lie 
