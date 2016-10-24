@@ -18,30 +18,33 @@ now available. It's open source, free to use by anyone and available on Windows 
 
 Ray
 
-Files: (.slvs files are SolveSpace source files and .stl files are exports with triangular mesh of the .slvs files for 3D printing)
+Files: 
+NB. ".slvs" files are SolveSpace source files and ".stl" files are exports with triangular mesh of the .slvs files for 3D printing. And 
+ I have tried to end the files with a "-vnnn" where nnn is the version number this will likely change as we improve the parts but it's a 
+ way to keep track of the .slvs & .stl files.... Not sure how to use GitHuB to manage changes to .slvs and .stl files.
 
-- CoreMnt-8x5-Bot-v003.slvs & ".stl: this is the bottom half of a mount for the 5 holes in the Core Controller Module and an Actobotics
+- CoreMnt-8x5-Bot-vnnn.slvs & ".stl: this is the bottom half of a mount for the 5 holes in the Core Controller Module and an Actobotics
  bracket. It has 8 (2 pairs of 4) screw holes for the flat bracket and all 5 screw holes for the controller module. 
-- CoreMnt-8x5-Top-v003.slvs & ".stl: this is the top half of the mount for the Core Controller. It is intended to on one side (the 
+- CoreMnt-8x5-Top-vnnn.slvs & ".stl: this is the top half of the mount for the Core Controller. It is intended to on one side (the 
  controller side and on the other side the Actobotics connection to SANDWICH the core controller flange so there's a plastic part on top 
  and on the bottom of both the controller and the flat Acotbotics bracket.
 
-- CoreMntUSB-v005-Bot.slvs & ".stl: this is the bottom half of a mount for the side of a Core Controlle Module. This and the corresponding 
+- CoreMntUSB-vnnn-Bot.slvs & ".stl: this is the bottom half of a mount for the side of a Core Controlle Module. This and the corresponding 
  top piece wrap around the controller and mount to the side of the controller to an Actobotics flat bracket. The bottom mount is intended
  to be used for both sides of the controller but the Top can only be used for the USB connection side of the controller as on the other
  side it would obstruct the Power and Moter connections of that side. These two parts also have the 8X5 configuration of screw holes
- - CoreMntUSB+Towers-v004.slvs & ".stl: this is the top half of the wraparound mount for the Core Controller. It is intended to only be used
+ - CoreMntUSB+Towers-vnnn.slvs & ".stl: this is the top half of the wraparound mount for the Core Controller. It is intended to only be used
   for the USB connection side of the mount. It also SANDWICHes the core controller screw hole flange and the Actobotics flat bracket on the 
   other side. 
   
- - NewCoreMnt-2X5-v002.slvs & ".stl: this is a different mount, only going on the top of an Core Controller module and an Actobotics beam. 
+ - NewCoreMnt-2X5-vnnn.slvs & ".stl: this is a different mount, only going on the top of an Core Controller module and an Actobotics beam. 
     But we have configured the Actobotics screw holes so that it could all be mounted on the same beam. The controller module should lie 
     ontop of the beam and the plastic should lie with a portion of the piece (the ledge) ontop of the controller screw holes and the rest 
     lieing flat on the Actobotics beam. As the middle 3 screw holes on the controller would interfere with the actobotics beam they have 
     been filled in and provide 3 protuberances that fit into the 3 middle screw holes for the controller. This was designed for the Core
     Controller and should fit the other controllers that are sized the same. We haven't tried this on the bigger controller(s) to see if it
     works or not.
- - NewUSBholder-v001.slvs & ".stl: An optional piece that is configured to go ontop of two of the NewCoreMont-2X5 above and provide a 
+ - NewUSBholder-vnnn.slvs & ".stl: An optional piece that is configured to go ontop of two of the NewCoreMont-2X5 above and provide a 
     USB cable holder for the one side of the Core Controller that has a USB cable connection. It's really a version of the CoreMntUSB+Towers
     above piece but configured to fit ontop of the NewCoreMnt-2X5 part. We probably need to do one of these for the other controllers as
     there USB connections are in different places
