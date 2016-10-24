@@ -54,7 +54,13 @@ NB. ".slvs" files are SolveSpace source files and ".stl" files are exports with 
     
   - Square2.slvs & ".stl: this is a test piece (yet to be validated, printing it now) that is configured as an Actobotics square with 
     14 of the 21 (20 small and 1 big) screw holes of a square. There are more holes surrounding the interior big hole and there seems to be a 
-    standard screw hole placed between squares.
+    standard screw hole placed between squares. It turns out the squares that Actobotics uses has two different configurations 
+    1)used on the flat brackets with widely spaced big holes has screw holes almost in an exact square on the outside and screw holes that 
+    surround the big hole on the inside.
+    2)used on the beams with tightly placed big holes where the screw holes are only linear on two of the sides and non-linear on the 
+    orthogonal sides.
+    The square file has both types of screw holes, 2 sides have linear holes and 2 orthogonal sides have the non-linear pattern. Which 
+    should allow it to fit onto beams as well as flat brackets.
     
   Use at your own risk.
   
